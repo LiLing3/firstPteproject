@@ -1,0 +1,56 @@
+{
+	"code": "200",
+	"data": [
+		{
+			"leaf": true,
+			"pageCode": "dashboard",
+			"pageCodeAlias": "dashboard",
+			"params": {
+				"pageCode": "dashboard"
+			},
+			"parentPageCode": "-1",
+			"title": "首页",
+			"toUrl": "/pte/json/treeTable/index.json",
+			"icon": "el-icon-eleme"
+		},
+		{
+            "leaf": true,
+            "pageCode": "helloWorld",
+            "pageCodeAlias": "helloWorld",
+            "params": {
+ 
+            },
+            "parentPageCode": "-1",
+            "title": "helloWorld",
+            "toUrl": "views/helloWorld/index.vue"
+        },
+        {
+            "icon": "shouye2",
+            "leaf": false,
+            "pageCode": "menu1",
+            "pageCodeAlias": "menu1",
+            "parentPageCode": "-1",
+            "title": "一级菜单",
+            "toUrl": "views/dashboard/index.vue"
+        },
+        {
+            "icon": "shouye2",
+            "leaf": true,
+            "pageCode": "menu1-1",
+            "pageCodeAlias": "menu1-1",
+            "parentPageCode": "menu1",
+            "title": "二级菜单",
+            "toUrl": "views/helloWorld/index.vue"
+        },
+		{
+			"leaf": true,
+			"pageCode": "demo",
+			"pageCodeAlias": "demo",
+			"parentPageCode": "-1",
+			"title": "demo页面",
+			"target": "_self",
+			"toUrl": "/views/demo/demo-list.json"
+		}
+	],
+	"message": "操作成功！"
+}
