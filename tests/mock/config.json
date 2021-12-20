@@ -6,9 +6,7 @@
     }
   },
   {
-    "url": "demo/demo_data",
-    "params": {
-      "sex": "man"
-    }
+    "url": "demo/demo_data"
+    
   }
 ]
